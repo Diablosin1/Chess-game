@@ -1,5 +1,6 @@
 # Chess-game
 # This code provides a basic structure for a command-line chess game. 
+
 class ChessGame:
     def __init__(self):
         self.board = self.create_board()
@@ -63,7 +64,7 @@ class ChessGame:
 
             print("\n----------------------------------\n")
 
-
 # Create and start the game
+
 game = ChessGame()
 game.play()
