@@ -1,10 +1,11 @@
 # Chess-game
 # This code provides a basic structure for a command-line chess game. 
 
-class ChessGame:
-    def __init__(self):
+    class ChessGame:
+        def __init__(self):
         self.board = self.create_board()
         self.current_player = "white"
+
 
     def create_board(self):
         # Initialize an empty chess board
@@ -65,6 +66,5 @@ class ChessGame:
             print("\n----------------------------------\n")
 
 # Create and start the game
-
-game = ChessGame()
-game.play()
+    game = ChessGame()
+    game.play()
