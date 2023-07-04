@@ -65,5 +65,6 @@
             print("\n----------------------------------\n")
 
 # Create and start the game
+
     game = ChessGame()
     game.play()
