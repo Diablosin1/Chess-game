@@ -6,7 +6,6 @@
         self.board = self.create_board()
         self.current_player = "white"
 
-
     def create_board(self):
         # Initialize an empty chess board
         board = []
